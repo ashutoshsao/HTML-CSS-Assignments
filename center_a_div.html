@@ -1,0 +1,44 @@
+<!--Center a div-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body{
+                margin:0;
+                height:100vh;
+                display:flex;
+                flex-direction:column;
+            }
+
+            .middle{
+                flex:1;
+                background:lightblue;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: purple;
+            }
+            .target{
+                background-color: lightblue;
+                padding: 10px;
+                border-radius: 10px;
+            }
+            .center{
+                display: flex;
+                justify-content: center;
+            }
+        </style>
+    </head>
+
+    <body>
+
+        <div class="center">Header</div>
+
+        <div class="middle">
+            <div class="target">hello</div>
+        </div>
+
+        <div class="center">Footer</div>
+
+    </body>
+</html>
